@@ -26,8 +26,8 @@ header {
   }
 }
 
-// film infor
-.film__infor {
+// film info
+.film__info {
   margin-top: 2rem;
   @extend %flex-center;
   justify-content: space-between;
@@ -61,7 +61,7 @@ header {
       margin: 1em 0;
     }
 
-    .card__infor {
+    .card__info {
       text-align: center;
     }
   }
@@ -74,7 +74,7 @@ header {
 
 // **********************reponsive********************** 
 @include responsive("extra-large") {
-  .film__infor{
+  .film__info{
     .card{
         width: 23%;
     }
@@ -82,7 +82,7 @@ header {
 }
 
 @include responsive("large") {
-  .film__infor{
+  .film__info{
     justify-content: space-around;
     .card{
         width: 43%;
@@ -91,7 +91,7 @@ header {
 }
 
 @include responsive("small") {
-  .film__infor{
+  .film__info{
     .card{
         width: 90%;
     }

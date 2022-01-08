@@ -4,7 +4,7 @@ body {
   color: white;
   padding: 2rem; }
 
-header, .film__infor, .film__infor .card {
+header, .film__info, .film__info .card {
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -16,11 +16,11 @@ header {
     text-transform: uppercase;
     font-weight: 400; }
 
-.film__infor {
+.film__info {
   margin-top: 2rem;
   justify-content: space-between;
   flex-wrap: wrap; }
-  .film__infor .card {
+  .film__info .card {
     width: 23%;
     padding: 1.5rem 1rem;
     margin-bottom: 2rem;
@@ -28,32 +28,32 @@ header {
     background-color: #151c20;
     flex-direction: column;
     transition: all 0.25s ease-in-out; }
-    .film__infor .card:hover {
+    .film__info .card:hover {
       cursor: pointer;
       transform: translateY(-1rem);
       box-shadow: 1px 1px 8px #888; }
-    .film__infor .card .card__image img {
+    .film__info .card .card__image img {
       width: 195px;
       height: 258px; }
-    .film__infor .card .card__name {
+    .film__info .card .card__name {
       font-weight: 700;
       margin: 1em 0; }
-    .film__infor .card .card__infor {
+    .film__info .card .card__info {
       text-align: center; }
 
 .modal {
   color: black; }
 
 @media screen and (max-width: 1200px) {
-  .film__infor .card {
+  .film__info .card {
     width: 23%; } }
 @media screen and (max-width: 992px) {
-  .film__infor {
+  .film__info {
     justify-content: space-around; }
-    .film__infor .card {
+    .film__info .card {
       width: 43%; } }
 @media screen and (max-width: 576px) {
-  .film__infor .card {
+  .film__info .card {
     width: 90%; } }
 
 /*# sourceMappingURL=style.css.map */
